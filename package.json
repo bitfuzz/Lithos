@@ -1,0 +1,24 @@
+{
+  "name": "quake",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfuzz/trigger-quake.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitfuzz/trigger-quake/issues"
+  },
+  "homepage": "https://github.com/bitfuzz/trigger-quake#readme",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.2.1",
+    "dotenv": "^17.2.3"
+  }
+}
